@@ -1,0 +1,181 @@
+body{
+    background-image: url('IMG_7922.JPG')
+
+}
+:root{
+    --videoSizeX: 400;
+    --videoSizeY: 225;
+}
+
+/* Alle lettertypes */
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+font_Main {
+    color: darkgrey;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: 40px;
+}
+
+.titel{
+    color: #39b270; ; font-size: 100px;text-align: center; padding:0;
+    font-family: "mijnFont";
+    margin-top:20px;margin-bottom: 0px;
+}
+.ondertitel{
+    color: #39b270; ; font-size: 50px;text-align: right; padding:0;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10%;
+    font-family: "mijnFont";
+    margin-top:0px;margin-bottom: 10px;
+}
+
+.font_bio {
+    color: darkgrey;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: 40px;
+    font-family:Helvetica;
+    
+   
+        width: clamp(40px, 70%, 80%);  
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin: 0 auto;                /* This will center it horizontally */
+        padding:10px;                 /* Add some padding inside the box */
+        box-sizing: border-box;        /* Include padding and borders in width */        
+        text-align: center;   
+        display: block;          
+}   
+
+.font_blog {
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: 40px;
+    font-family:Helvetica;
+    
+   
+        width: 100%;  
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin: 0 auto;                /* This will center it horizontally */
+        padding:0px;                 /* Add some padding inside the box */
+        box-sizing: border-box;        /* Include padding and borders in width */        
+        text-align: center;   
+        display: block;  
+
+}
+
+.font_Vrienden {
+    color: darkgrey;
+    font-size: 20px;
+    text-align: left;
+    border-right: 0px;
+    box-sizing:border-box;
+    font-family:Helvetica;
+        width:clamp(400px, 40%, 60%);  
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin-left: 0 auto;                /* This will center it horizontally */
+        padding:0px;     
+        margin-right: 0px;
+        margin-bottom: 0px;            /* Add some padding inside the box */          
+    
+        display: flexbox;  
+    
+}
+
+
+.vriendbox_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0%;
+}
+
+.vriendbox {
+    width: fit-content;
+    border-width: 0px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    padding-top: 15px; padding-bottom: 0px;
+    margin:40px;
+    margin-bottom: 30px;
+   
+}
+
+.vriendVideo{
+    width: clamp(200px, 30%, 800px);
+
+    margin-right:auto ;
+    margin-left: 0 auto;
+    padding-left: 3%;
+    overflow: auto;
+    margin-bottom: 10px;
+    
+
+}
+.vriendFoto {
+
+    width: clamp(150px, 300px, 400px);
+    height: auto;
+    max-width: 100%;
+    margin-right:auto ;
+    margin-left: 0 auto;
+    padding-left: 3%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.vriendFoto img {
+    width: 100%;                         /* Make sure the image fills the width of its container */
+    height: auto;                        /* Maintain the aspect ratio of the image */
+    object-fit: contain;                 /* Ensure the image fits within the container without cropping */
+}
+
+.vriendVideo iframe {
+    max-width: 100%; 
+    /* height:auto; */
+    border-radius: 12px;
+}
+
+@font-face {
+    font-family: "mijnfont";
+    src: url(ayuthaya-regular.ttf);
+}
+
+
+/* einde lettertypes */
+
+.footer{
+ width: fit-content;
+ margin: 0 auto;
+ margin-top: auto;
+ margin-bottom: 100px;
+ font-family: sans-serif;
+ font-size: 30px;
+}
+
+/* Links editen */
+a{
+color: #39b270 ;
+font-style:normal;
+text-decoration: none;
+
+}
+a:hover{
+    color:#229555
+
+}
+
+.container{
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 0px;
+    justify-content: space-around;
+}
