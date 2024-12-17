@@ -144,6 +144,12 @@ font_Main {
     border-radius: 12px;
 }
 
+.vriendVideo spotify {
+    max-width: 100%; 
+    height:auto;
+    border-radius: 12px;
+}
+
 @font-face {
     font-family: "mijnfont";
     src: url(ayuthaya-regular.ttf);
