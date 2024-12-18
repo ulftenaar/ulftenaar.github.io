@@ -8,11 +8,7 @@ body{
 }
 
 /* Alle lettertypes */
-h1 {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
 
-}
 
 font_Main {
     color: darkgrey;
@@ -37,20 +33,16 @@ font_Main {
 
 .font_bio {
     color: darkgrey;
-    font-size: clamp(22px, 2vw,28px);
+    font-size: clamp(15px, 10vw, 25px);
     text-align: center;
     box-sizing: 40px;
     font-family:Helvetica;
-    
-   
-        width: clamp(40px, 70%, 80%);  
+    padding-left: 5vw; padding-right: 5vw;
+
         height: fit-content;                /* Set a fixed width for the bio box */
-        max-height: (vh);
-        margin: 0 auto;                /* This will center it horizontally */
-        padding:0px;                 /* Add some padding inside the box */
-        box-sizing: border-box;        /* Include padding and borders in width */        
-        text-align: center;   
-        display: block;    
+        margin: 0 auto;               
+        box-sizing: border-box;        /* Include padding and borders in width */         
+        /* display: block;     */
         overflow: hidden;      
 }   
 
@@ -128,12 +120,13 @@ figcaption{
 
 .vriendVideo{
     width: clamp(200px, 30%, 800px);
-
+    height: 100%;
     margin-right:auto ;
     margin-left: 0 auto;
     padding-left: 3%;
     overflow: auto;
     margin-bottom: 10px;
+    overflow-x: hidden;
     
 }
 .vriendFoto {
@@ -150,9 +143,10 @@ figcaption{
 }
 .vriendFoto img {
     width: 100%;                         /* Make sure the image fills the width of its container */
-    height: auto;                        /* Maintain the aspect ratio of the image */
+    height: auto;    
     object-fit: contain;     
-    border-radius: 2px;          
+    border-radius: 2px;
+    margin-top: 10px;          
 }
 
 .vriendVideo iframe {
@@ -198,6 +192,7 @@ color: #39b270 ;
 font-style:normal;
 text-decoration: none;
 
+
 }
 a:hover{
     color:#229555
@@ -213,6 +208,8 @@ a:hover{
     border-bottom: 0px;
     padding-top: 0px;
     justify-content: space-around;
+   
+
 }
 .container_home{
     min-height: 80vh;  
