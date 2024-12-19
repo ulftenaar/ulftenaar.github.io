@@ -108,7 +108,7 @@ figcaption{
 }
 
 .vriendbox {
-    width: fit-content;
+    width: 90vw;
     border-width: 0px;
     border: 2px solid #ccc;
     padding: 20px;
@@ -116,6 +116,16 @@ figcaption{
     margin:40px;
     margin-bottom: 30px;
    
+}
+
+.box_fit {
+    width: 40vw;
+    border-width: 0px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    padding-top: 15px; padding-bottom: 0px;
+    margin:0 auto;
+    margin-bottom: 30px;
 }
 
 .vriendVideo{
@@ -217,4 +227,5 @@ a:hover{
     padding: 40px;
     padding-top: 0px;
     justify-content: space-around;
+    
 }
