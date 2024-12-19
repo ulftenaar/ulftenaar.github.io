@@ -1,0 +1,231 @@
+body{
+    background-image: url(Images/IMG_7922.JPG)
+    /* height = "100%"; */
+}
+:root{
+    --videoSizeX: 400;
+    --videoSizeY: 225;
+}
+
+/* Alle lettertypes */
+
+
+font_Main {
+    color: darkgrey;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: 40px;
+}
+
+.titel{
+    color: #39b270; ; font-size: clamp(80px,2vh,110px);text-align: center; padding:0;
+    font-family: "mijnFont";
+    margin-top:20px;margin-bottom: 0px;
+}
+.ondertitel{
+    color: #39b270; ; font-size: 50px;text-align: right; padding:0;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10%;
+    font-family: "mijnFont";
+    margin-top:0px;margin-bottom: 10px;
+}
+
+.font_bio {
+    color: darkgrey;
+    font-size: clamp(15px, 10vw, 25px);
+    text-align: center;
+    box-sizing: 40px;
+    font-family:Helvetica;
+    padding-left: 5vw; padding-right: 5vw;
+
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin: 0 auto;               
+        box-sizing: border-box;        /* Include padding and borders in width */         
+        /* display: block;     */
+        overflow: hidden;      
+}   
+
+.font_blog {
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: 40px;
+    font-family:Helvetica;
+    
+   
+        width: 100%;  
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin: 0 auto;                /* This will center it horizontally */
+        padding:0px;                 /* Add some padding inside the box */
+        box-sizing: border-box;        /* Include padding and borders in width */        
+        text-align: center;   
+        display: block;  
+
+}
+
+.font_Vrienden {
+    color: darkgrey;
+    font-size: clamp(12px, 8vw,23px);
+    text-align: left;
+    border-right: 0px;
+    box-sizing:border-box;
+    font-family:Helvetica;
+    width: 30%;  
+
+        height: fit-content;                /* Set a fixed width for the bio box */
+        margin-left: 0 auto;                /* This will center it horizontally */
+        padding:0px;     
+        margin-right: 0px;
+        margin-bottom: 0px;            /* Add some padding inside the box */          
+    
+        display: flexbox;  
+}
+
+figcaption{
+    font-size: clamp(10px, 4vw,15px);
+    max-width: 100%;
+    color: darkgrey;
+    text-align: center;
+    border-right: 0px;
+    box-sizing:border-box;
+    font-family:Helvetica;
+    min-width: 25%;
+        height: fit-content;               
+        margin-top: 4px;
+    
+        display: flexbox;  
+}
+
+   
+
+
+.vriendbox_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0%;
+}
+
+.vriendbox {
+    width: 90vw;
+    border-width: 0px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    padding-top: 15px; padding-bottom: 0px;
+    margin:40px;
+    margin-bottom: 30px;
+   
+}
+
+.box_fit {
+    width: 40vw;
+    border-width: 0px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    padding-top: 15px; padding-bottom: 0px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.vriendVideo{
+    width: clamp(200px, 30%, 800px);
+    height: 100%;
+    margin-right:auto ;
+    margin-left: 0 auto;
+    padding-left: 3%;
+    overflow: auto;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    
+}
+.vriendFoto {
+    
+    width: clamp(150px, 300px, 400px);
+    height: auto;
+    max-width: 100%;
+    margin-right:auto ;
+    margin-left: 0 auto;
+    padding-left: 3%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.vriendFoto img {
+    width: 100%;                         /* Make sure the image fills the width of its container */
+    height: auto;    
+    object-fit: contain;     
+    border-radius: 2px;
+    margin-top: 10px;          
+}
+
+.vriendVideo iframe {
+    width: clamp(30vw, 40vw, 60vh);
+    height: clamp(20vh, 30vh, 50vh);
+    max-width: 100%; 
+    border-radius: 12px;
+    
+    
+
+}
+
+.vriendVideo spotify {
+    max-width: 100%; 
+    height:100%;
+    border-radius: 12px;
+}
+
+@font-face {
+    font-family: "mijnfont";
+    src: url(ayuthaya-regular.ttf);
+}
+
+
+/* einde lettertypes */
+
+.footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    padding-bottom: 0 auto;
+}
+
+/* Links editen */
+a{
+color: #39b270 ;
+font-style:normal;
+text-decoration: none;
+
+
+}
+a:hover{
+    color:#229555
+
+}
+
+.container{
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    padding-top: 0px;
+    justify-content: space-around;
+   
+
+}
+.container_home{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 0px;
+    justify-content: space-around;
+    
+}
