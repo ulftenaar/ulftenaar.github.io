@@ -48,13 +48,12 @@ font_Main {
 
 .font_blog {
     color: darkgrey;
-    font-size: 20px;
+    font-size: clamp(10px, 8vw,20px);
     text-align: center;
-    box-sizing: 40px;
+    /* box-sizing: 40px; */
     font-family:Helvetica;
     
    
-        width: 100%;  
         height: fit-content;                /* Set a fixed width for the bio box */
         margin: 0 auto;
         margin-top: 0 auto;                /* This will center it horizontally */
