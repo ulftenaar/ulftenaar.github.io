@@ -8,7 +8,11 @@ body{
 }
 
 /* Alle lettertypes */
+h3{
+    font-size: 30px;
+    color:rgba(169, 169, 169, 0.463); ; font-size: clamp(20px,2vh,30px);text-align: center; padding:0;
 
+}
 
 font_Main {
     color: darkgrey;
@@ -37,7 +41,7 @@ font_Main {
     text-align: center;
     box-sizing: 40px;
     font-family:Helvetica;
-    padding-left: 5vw; padding-right: 5vw;
+    /* padding-left: 5vw; padding-right: 5vw; */
 
         height: fit-content;                /* Set a fixed width for the bio box */
         margin: 0 auto;               
@@ -184,17 +188,18 @@ figcaption{
 /* einde lettertypes */
 
 .footer{
-    /* position: fixed; */
-    bottom: 0;
+    /* position:static; */
+    bottom: 5vh;
     width: 100%;
     font-family: sans-serif;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    padding-top: auto;
-    padding-bottom: 0 auto;
+    /* padding: 20px 0; */
+    /* margin: auto 0; */
+    
+    
 }
 
 /* Links editen */
@@ -210,14 +215,36 @@ a:hover{
 
 }
 
+.iconLink{
+    display: flex;
+    /* margin-left: auto; */
+    /* margin: auto; */
+    margin: 3vh auto 3vh auto; 
+    flex-direction: row;
+}
+.iconLink img {
+    width: 4vw;
+    mix-blend-mode:soft-light;
+    opacity: 80%;
+    /* aspect-ratio: 100/70; */
+    /* padding: 0.3vw; */
+    padding-right: 3vw;
+    
+}
+
+.iconLink img:hover{
+    mix-blend-mode:multiply;
+}
+
 .container{
-    min-height: 80vh;    
+    /* min-height: 80vh;     */
     display: flex;
     flex-direction: column;
     padding: 0px;
     /* padding-bottom: 0px; */
     /* border-bottom: 0px; */
     /* padding-top: 0px; */
+    /* margin-bottom: 0%; */
     justify-content: space-around;
    
 
