@@ -1,5 +1,7 @@
 body{
-    background-image: url(Images/IMG_7922.JPG)
+    background-image: url(Images/UTAsite_achtergrond2_klein.jpg);
+    
+    /* background-repeat:space; */
     /* height = "100%"; */
 }
 :root{
@@ -8,11 +10,7 @@ body{
 }
 
 /* Alle lettertypes */
-h3{
-    font-size: 30px;
-    color:rgba(169, 169, 169, 0.463); ; font-size: clamp(20px,2vh,30px);text-align: center; padding:0;
 
-}
 
 font_Main {
     color: darkgrey;
@@ -90,7 +88,7 @@ figcaption{
     font-size: clamp(10px, 4vw,15px);
     max-width: 100%;
     color: darkgrey;
-    text-align: center;
+    text-align: left;
     border-right: 0px;
     box-sizing:border-box;
     font-family:Helvetica;
@@ -134,7 +132,8 @@ figcaption{
 
 .vriendVideo{
     width: clamp(200px, 30%, 800px);
-    height: 100%;
+    height: auto;
+    /* aspect-ratio: 16/9; */
     margin-right:auto ;
     margin-left: 0 auto;
     padding-left: 3%;
