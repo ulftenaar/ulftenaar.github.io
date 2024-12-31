@@ -5,9 +5,10 @@ window.onload = function() {
 
     <body>
     <div class="footer">
-        <a href=vrienden.html>Vrienden.  </a> 
-        <a href= UTAblog.html>Blog. </a>
-        <a href= UTAlinks.html>Links. </a>
+        <a href=vrienden.html>Vrienden.   </a> 
+        <a href= UTAblog.html>Blog.  </a>
+        <a href= UTAlinks.html>Links.  </a>
+        <a href= UTAwerk.html>Nieuws.   </a>
         </div>
         
         </body>
