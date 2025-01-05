@@ -68,7 +68,7 @@ font_Main {
 
 .font_Vrienden {
     color: darkgrey;
-    font-size: clamp(12px, 8vw,23px);
+    font-size: clamp(12px, 2vw,23px);
     text-align: left;
     border-right: 0px;
     box-sizing:border-box;
@@ -97,6 +97,7 @@ figcaption{
         margin-top: 4px;
     
         display: flexbox;  
+
 }
 
    
@@ -149,7 +150,7 @@ figcaption{
     max-width: 100%;
     margin-right:auto ;
     margin-left: 0 auto;
-    padding-left: 3%;
+    padding-left: 0;
     overflow: hidden;
     margin-bottom: 10px;
     object-fit: contain;
@@ -167,9 +168,14 @@ figcaption{
     height: clamp(20vh, 30vh, 50vh);
     max-width: 100%; 
     border-radius: 12px;
-    
-    
 
+}
+
+.vriendVideo2 {
+    width: clamp(30vw, 40vw, 60vh);
+    height: clamp(20vh, 30vh, 50vh);
+    max-width: 100%; 
+    border-radius: 12px;  
 }
 
 .vriendVideo spotify {
