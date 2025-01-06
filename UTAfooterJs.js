@@ -5,10 +5,10 @@ window.onload = function() {
 
     <body>
     <div class="footer">
-        <a href=vrienden.html>Vrienden.   </a> 
-        <a href= UTAblog.html>Blog.  </a>
-        <a href= UTAlinks.html>Links.  </a>
-        <a href= UTAwerk.html>Nieuws
+        <a target="_blank"href=vrienden.html>Vrienden.   </a> 
+        <a target="_blank"href= UTAblog.html>Blog.  </a>
+        <a target="_blank"href= UTAlinks.html>Links.  </a>
+        <a target="_blank"href= UTAwerk.html>Nieuws
     .   </a>
         </div>
         
@@ -17,4 +17,4 @@ window.onload = function() {
         document.body.insertAdjacentHTML('beforeend', UTAfooterHTML);
     }
     
-    // <a href=UTAlinks.html>Links. </a> 
+    // <a target="_blank"href=UTAlinks.html>Links. </a> 
