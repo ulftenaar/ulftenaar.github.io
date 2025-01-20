@@ -36,15 +36,11 @@ font_Main {
 .font_bio {
     color: darkgrey;
     font-size: clamp(15px, 10vw, 25px);
-    text-align: center;
-    box-sizing: 40px;
+    text-align: left;
     font-family:Helvetica;
-    /* padding-left: 5vw; padding-right: 5vw; */
-
+        width: fit-content;
+        padding-right: 3em;
         height: fit-content;                /* Set a fixed width for the bio box */
-        margin: 0 auto;               
-        box-sizing: border-box;        /* Include padding and borders in width */         
-        /* display: block;     */
         overflow: hidden;      
 }   
 
@@ -57,7 +53,7 @@ font_Main {
     
    
         height: fit-content;                /* Set a fixed width for the bio box */
-        margin: 0 auto;
+        
         margin-top: 0 auto;                /* This will center it horizontally */
         padding:0px;                 /* Add some padding inside the box */
         box-sizing: border-box;        /* Include padding and borders in width */        
@@ -75,13 +71,7 @@ font_Main {
     font-family:Helvetica;
     width: 30%;  
 
-        height: fit-content;                /* Set a fixed width for the bio box */
-        margin-left: 0 auto;                /* This will center it horizontally */
-        padding:0px;     
-        margin-right: 0px;
-        margin-bottom: 0px;            /* Add some padding inside the box */          
-    
-        display: flexbox;  
+        height: fit-content; 
 }
 
 figcaption{
@@ -121,6 +111,23 @@ figcaption{
    
 }
 
+
+.home_Container {
+ display:flex;
+
+}
+.artistbio {
+  
+  flex-grow:1;
+  padding-left: 3em;
+}
+
+.home_Img{
+ margin: auto 0 auto 0; 
+  width:200%;
+/*  aspect-ratio; 1/1;   */
+}
+
 .box_fit {
     width: 40vw;
     border-width: 0px;
@@ -154,6 +161,8 @@ figcaption{
     overflow: hidden;
     margin-bottom: 10px;
     object-fit: contain;
+      align-self: center;
+
 }
 .vriendFoto img {
     width: 100%;                         /* Make sure the image fills the width of its container */
