@@ -116,6 +116,7 @@ figcaption{
     /* float: left; */
 /* display: flex; */
 padding-left: 1em;
+padding-right: 1em;
 
 }
 .artistbio {
@@ -129,17 +130,11 @@ padding-left: 1em;
 
 .home_Img{
     float: left;
-  /* flex: 1; */
-  /* margin: auto 0 auto 0;  */
     width: 60%;
     min-width: 500px;
     max-width: 100vw;
     overflow: hidden;
   padding-right: 3em;
-  /* padding-left: 1em; */
-
-
-/*  aspect-ratio; 1/1;   */
 }
 
 .box_fit {
