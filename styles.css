@@ -284,3 +284,30 @@ a:hover{
 .container_hele {
     max-height: 85vh;
 }
+
+.flexCont {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1rem;
+}
+.flexPart {
+flex: 1;
+flex-direction: row;
+padding: 1rem;
+min-width: min(300px, 40vw);
+border: 2px solid #ccc;
+}
+
+.f_flexMain {
+    color: darkgrey;
+    font-size: clamp(15px, 1rem, 25px);
+    text-align: center;
+   font-family: Helvetica;
+}  
+
+
+
+
+

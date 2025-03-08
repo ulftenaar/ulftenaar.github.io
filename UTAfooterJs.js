@@ -9,6 +9,7 @@ window.onload = function() {
         <a target="_blank"href= UTAblog.html>Blog.  </a>
         <a target="_blank"href= UTAlinks.html>Links.  </a>
         <a target="_blank"href= UTAwerk.html>Nieuws. </a>
+        <!-- <a target="_blank"href="Muziek/DenkenaanPage/denkenaan.html"> Album.</a> -->
         </div>
         
         </body>
