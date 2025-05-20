@@ -5,10 +5,12 @@ window.onload = function() {
 
     <body>
     <div class="footer">
-        <a target="_blank"href=vrienden.html>Vrienden.   </a> 
-        <a target="_blank"href= UTAblog.html>Blog.  </a>
-        <a target="_blank"href= UTAlinks.html>Links.  </a>
-        <a target="_blank"href= UTAwerk.html>Nieuws. </a>
+        <a href=over.html>Over. </a>
+        <a href=vrienden.html>Vrienden.   </a> 
+        <a href= UTAblog.html>Blog.  </a>
+        <a href= UTAlinks.html>Links.  </a>
+        <a href= UTAwerk.html>Nieuws. </a>
+        <a href=UTAmuziek.html>Muziek</a>
         <!-- <a target="_blank"href="Muziek/DenkenaanPage/denkenaan.html"> Album.</a> -->
         </div>
         

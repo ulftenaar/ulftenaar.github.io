@@ -1,9 +1,11 @@
 body{
-    background-image: url(Images/UTAsite_achtergrond2_klein.jpg);
+    background-image: url("Images/UTAsite_achtergrond2_klein.jpg");
     
     /* background-repeat:space; */
+
     /* height = "100%"; */
 }
+
 :root{
     --videoSizeX: 400;
     --videoSizeY: 225;
@@ -12,7 +14,7 @@ body{
 /* Alle lettertypes */
 
 
-font_Main {
+font_main {
     color: darkgrey;
     font-size: 30px;
     text-align: center;
@@ -20,17 +22,20 @@ font_Main {
 }
 
 .titel{
-    color: #39b270; ; font-size: clamp(80px,2vh,110px);text-align: center; padding:0;
-    font-family: "mijnFont";
-    margin-top:3%;margin-bottom: 0px;
+    color: #39b270;
+    font-size: clamp(80px,2vh,110px);text-align: center; padding:0;
+    font-family: mijnFont;
+    margin-top:3%;margin-bottom: 0;
 }
+
 .ondertitel{
-    color: #39b270; ; font-size: 50px;text-align: right; padding:0;
+    color: #39b270;
+    font-size: 50px;text-align: right; padding:0;
     width: fit-content;
     height: fit-content;
     margin-right: 10%;
-    font-family: "mijnFont";
-    margin-top:0px;margin-bottom: 10px;
+    font-family: mijnFont;
+    margin-top:0;margin-bottom: 10px;
 }
 
 .font_bio {
@@ -47,15 +52,12 @@ font_Main {
 .font_blog {
     color: darkgrey;
     font-size: clamp(10px, 8vw,20px);
-    text-align: center;
+
     /* box-sizing: 40px; */
     font-family:Helvetica;
-    
-   
         height: fit-content;                /* Set a fixed width for the bio box */
-        
         margin-top: 0 auto;                /* This will center it horizontally */
-        padding:0px;                 /* Add some padding inside the box */
+        padding:0;                 /* Add some padding inside the box */
         box-sizing: border-box;        /* Include padding and borders in width */        
         text-align: center;   
         display: block;  
@@ -66,11 +68,10 @@ font_Main {
     color: darkgrey;
     font-size: clamp(12px, 2vw,23px);
     text-align: left;
-    border-right: 0px;
+    border-right: 0;
     box-sizing:border-box;
     font-family:Helvetica;
     width: 30%;  
-
         height: fit-content; 
 }
 
@@ -79,13 +80,12 @@ figcaption{
     max-width: 100%;
     color: darkgrey;
     text-align: left;
-    border-right: 0px;
+    border-right: 0;
     box-sizing:border-box;
     font-family:Helvetica;
     min-width: 25%;
         height: fit-content;               
         margin-top: 4px;
-    
         display: flexbox;  
 
 }
@@ -102,7 +102,7 @@ figcaption{
 
 .vriendbox {
     width: 90vw;
-    border-width: 0px;
+    border-width: 0;
     border: 2px solid #ccc;
     padding: 20px;
     padding-top: 15px; padding-bottom: 15px;
@@ -114,35 +114,43 @@ figcaption{
 
 .home_Container {
     /* float: left; */
-/* display: flex; */
+
+display: flex;
 padding-left: 1em;
 padding-right: 1em;
-
+flex-wrap: wrap
 }
+
 .artistbio {
+    flex: 1.5;
     color: darkgrey;
-    font-size: clamp(15px, 10vw, 25px);
+
+    /* min-width: 300px; */
+    font-size: clamp(20px, 1.7vw, 40px);
     font-family: Helvetica;
+
   /* margin-left: 100px; */
 
 
 }
 
 .home_Img{
-    float: left;
-    width: 60%;
-    min-width: 500px;
-    max-width: 100vw;
-    overflow: hidden;
+    flex:2;
+    min-width: 600px;
   padding-right: 3em;
+}
+
+.home_Img img{
+    object-fit: contain;
+
 }
 
 .box_fit {
     width: 40vw;
-    border-width: 0px;
+    border-width: 0;
     border: 2px solid #ccc;
     padding: 20px;
-    padding-top: 15px; padding-bottom: 0px;
+    padding-top: 15px; padding-bottom: 0;
     margin:0 auto;
     margin-bottom: 30px;
 }
@@ -150,6 +158,7 @@ padding-right: 1em;
 .vriendVideo{
     width: clamp(200px, 30%, 800px);
     height: auto;
+
     /* aspect-ratio: 16/9; */
     margin-right:auto ;
     margin-left: 0 auto;
@@ -159,20 +168,19 @@ padding-right: 1em;
     overflow-x: hidden;
     
 }
+
 .vriendFoto {
-    
     width: clamp(150px, 300px, 400px);
     height: auto;
     max-width: 100%;
-    margin-right:auto ;
-    margin-left: 0 auto;
-    padding-left: 0;
     overflow: hidden;
+    padding: 10px;
     margin-bottom: 10px;
     object-fit: contain;
       align-self: center;
 
 }
+
 .vriendFoto img {
     width: 100%;                         /* Make sure the image fills the width of its container */
     height: auto;    
@@ -203,8 +211,8 @@ padding-right: 1em;
 }
 
 @font-face {
-    font-family: "mijnfont";
-    src: url(ayuthaya-regular.ttf);
+    font-family: mijnfont;
+    src: url("ayuthaya-regular.ttf");
 }
 
 
@@ -219,7 +227,9 @@ padding-right: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* padding: 20px 0; */
+
     /* margin: auto 0; */
     
     
@@ -233,6 +243,7 @@ text-decoration: none;
 
 
 }
+
 a:hover{
     color:#229555
 
@@ -240,16 +251,21 @@ a:hover{
 
 .iconLink{
     display: flex;
+
     /* margin-left: auto; */
+
     /* margin: auto; */
-    margin: 3vh auto 3vh auto; 
+    margin: 3vh auto; 
     flex-direction: row;
 }
+
 .iconLink img {
     width: 4vw;
     mix-blend-mode:soft-light;
-    opacity: 80%;
+    opacity: 0.8;
+
     /* aspect-ratio: 100/70; */
+
     /* padding: 0.3vw; */
     padding-right: 3vw;
     
@@ -263,20 +279,25 @@ a:hover{
     /* min-height: 80vh;     */
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0;
+
     /* padding-bottom: 0px; */
+
     /* border-bottom: 0px; */
+
     /* padding-top: 0px; */
+
     /* margin-bottom: 0%; */
     justify-content: space-around;
    
 
 }
+
 .container_home{
     display: flex;
     flex-direction: column;
     padding: 40px;
-    padding-top: 0px;
+    padding-top: 0;
     justify-content: space-around;
     
 }
@@ -292,22 +313,39 @@ align-items: center;
 justify-content: center;
 padding: 1rem;
 }
+
 .flexPart {
 flex: 1;
-flex-direction: row;
+    display: flex;
+flex-flow: row wrap;
+justify-content:center;
+align-items: center;
 padding: 1rem;
 min-width: min(300px, 40vw);
 border: 2px solid #ccc;
+    gap: 1rem;
 }
 
 .f_flexMain {
+    flex: 1;
     color: darkgrey;
-    font-size: clamp(15px, 1rem, 25px);
+    font-size: clamp(15px, 3vw, 25px);
     text-align: center;
    font-family: Helvetica;
 }  
 
+.flexMedia {
+    width: auto;
+    min-width: min(300px, 60vw);
+    align-items: center;
+    flex: 1.5;    
+} 
 
+ .flexMedia iframe {
+    aspect-ratio: 16/9;
+    display: block;
+        margin: 0 auto; 
+    }
 
 
 
