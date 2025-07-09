@@ -189,6 +189,20 @@ flex-wrap: wrap
     margin-top: 10px;          
 }
 
+.vriend_Foto{
+    max-height: fit-content;
+}
+
+.vriend_Foto .flexFoto {
+display: flex;
+flex-flow: column wrap;
+}
+
+.vriend_Foto .flexFoto img {
+    flex:1 ;
+    height: 900px;
+}
+
 .vriendVideo iframe {
     width: clamp(30vw, 40vw, 60vh);
     height: clamp(20vh, 30vh, 50vh);
