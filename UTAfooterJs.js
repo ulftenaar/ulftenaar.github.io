@@ -10,8 +10,8 @@ window.onload = function() {
         <a href= UTAblog.html>Blog.  </a>
         <a href= UTAlinks.html>Links.  </a>
         <a href= UTAwerk.html>Nieuws. </a>
-        <a href=UTAmuziek.html>Muziek</a>
-        <!-- <a target="_blank"href="Muziek/DenkenaanPage/denkenaan.html"> Album.</a> -->
+        <a href=UTAmuziek.html>Kunst. </a>
+        <a target="_blank"href="Muziek/DenkenaanPage/denkenaan.html"> Album.</a>
         </div>
         
         </body>
