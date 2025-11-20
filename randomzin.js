@@ -5,10 +5,10 @@ let i = Math.floor(Math.random() * zinnen.length);
 let r = zinnen[i];
 console.log(r);
 
-let woorden = ["ja", "nee", "aardappel", "banaan", "soep"];
+let woorden = ["ja", "soep", "reiger", "mens", "persoon", "liefde", "zijn", "ben", "ongeloofelijk", "schoonheid", "mooi", "menselijk", "zon", "maan", "de", "het", "een", "samen", "eventjes", "nooit", "overweldigend", "bewonderaar", "dankbaar", "capibara", "rooibosthee", "met", "gezelschap", "maar", "de", "een", "de", "blauwe", "groene", "snapje", "gemeenschap", "gele", "laarsjes", "grasveld", "wijsheid", "de", "maar","bos", "schapen"]
 let zin = []; 
 
-for (i=0;i<40;i++){
+for (i=0;i<10;i++){
   let m = Math.floor(Math.random() * woorden.length)
   zin.push(woorden[m]);
   
