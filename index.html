@@ -12,10 +12,14 @@
     />
     <title>Ulf Ten Aar</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="popup.css" />
+
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-touch-icon.png"> -->
     <!-- <link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png"> -->
     <!-- <link rel="icon" type="image/png" sizes="16x16" href="Icon/favicon-16x16.png"> -->
     <!-- <link rel="manifest" href="Icon/site.webmanifest"> -->
+    <script src="zinpopup.js" defer></script>
+    <script src="randomzin.js" defer></script>
   </head>
 
   <!-- <div class="container_home"> -->
@@ -69,47 +73,24 @@
         </p>
       </div>
     </div>
+    <div class="popup_main" id="zinpopup">
+      <div class="popup_header">
+        Belangrijk bericht voor een iemand
+        <button data-modal-target="#zinpopup" class="popup_closeButton">
+          &times;
+        </button>
+      </div>
+      <div class="popup_text" id="zinpopuptext"> <br> <hr> <em>niemand heeft deze zin ooit eerder gezien</em> </div>
+    </div>
     <!---->
-    <!-- <div class="vriendbox_Container"> -->
-    <!--   <div class="box_fit" style="padding: 2%; margin-top: 3%"> -->
-    <!--     <div -->
-    <!--       class="artistbio" -->
-    <!--       style=" -->
-    <!--         float: left; -->
-    <!--         font-size: 2vw; -->
-    <!--         width: fit-content; -->
-    <!--         text-align: center; -->
-    <!--       " -->
-    <!--     > -->
-    <!--       <p> -->
-    <!--         Op 21 januari komt mijn eerste album uit. Dit is een teaser van een -->
-    <!--         van de nummers. Mijn geluk kan niet op! -->
-    <!--       </p> -->
-    <!--       <p></p> -->
-    <!--     </div> -->
-    <!---->
-    <!--     <div -->
-    <!--       class="vriendVideo" -->
-    <!--       style=" -->
-    <!--         margin: auto; -->
-    <!--         height: 200%; -->
-    <!--         width: 100%; -->
-    <!--         overflow-y: hidden; -->
-    <!--         aspect-ratio: 1 / 1; -->
-    <!--       " -->
-    <!--     > -->
-    <!--       <video -->
-    <!--         src="Video/WittePrins_teaser2_kort2.mp4" -->
-    <!--         width="100%" -->
-    <!--         height="100%" -->
-    <!--         controls -->
-    <!--         ov -->
-    <!--       ></video> -->
-    <!--     </div> -->
+    <!-- <div class="popup_main" id="videopopup"> -->
+    <!--   <div class="popup_header"> -->
+    <!--     Dit is een video van mij -->
+    <!--     <button data-modal-target="#videopopup" class="popup_closeButton">&times;</button> -->
     <!--   </div> -->
+    <!--   <div class="popup_text">yeahyeah</div> -->
     <!-- </div> -->
-    <!---->
-    <!-- </div> -->
+
     <script src="UTAfooterJs.js"></script>
   </body>
 </html>
