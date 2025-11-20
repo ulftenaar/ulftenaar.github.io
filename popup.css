@@ -1,0 +1,29 @@
+.popup_main {
+    background: no-repeat  url("Images/BlogFoto/Afb1261.jpg") darkblue;
+    background-size:200%  ;
+    background-image: opacity 30%;
+    
+    position: fixed;
+    bottom: 10%;  
+    right: 10%;
+    width: 300px;
+    max-width: 50%;
+    transform: translate(-50% -50%);
+    border: solid darkgrey 5px;
+
+    & button {
+        border: none;
+        background: none;
+    }
+}
+
+.popup_main.active {
+     display:none ;
+}
+
+.popup_header{
+    font-size: 1.5rem;
+    display: flex;
+    padding: 0.2rem 0.3rem;
+    justify-content: space-between; 
+}

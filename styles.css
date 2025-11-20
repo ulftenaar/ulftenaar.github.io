@@ -13,7 +13,16 @@ body{
 
 /* Alle lettertypes */
 
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem; 
+}
 
+button:hover{
+    color: #39b270;
+}
 font_main {
     color: darkgrey;
     font-size: 30px;
