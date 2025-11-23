@@ -7,7 +7,8 @@
       content="Ulf Ten Aar, ulftenaar, ulften aar, ulften aar, liedjesschrijver, liederen, snelle fietser, denken aan een ander is niet van deze tijd, denken aan, denken aan een ander, album, songwriter, producer, bendymetal, robin van ulft, robin ulf ten aar, robin"
     />
     <link rel="stylesheet" href="styles.css" />
-
+    <link rel="stylesheet" href="popup.css" />
+    
     <title>Kunst van Ulf Ten Aar</title>
   </head>
   <body>
@@ -23,6 +24,7 @@
     </div>
 
     <div class="flexCont">
+
       <!-- <div class="flexPart"> -->
       <!--   <div class="f_flexMain">klik <a href="Muziek/denkenaan.html">hier</a> voor mijn album.  </div> -->
       <!-- </div>   -->
@@ -39,6 +41,36 @@
       <!--   </div> -->
       <!-- </div> -->
 
+
+      <div class="flexPart">
+         <div class="f_flexTekst">
+           <div class="f_flexTitel">Voor als je het even niet meer weet // 22-11-25</div>
+           <div class="f_flexMain">
+            <em>
+            voor als de zon niet schijnt als voorheen <br>
+            en de zin zoals de reiger ineens verdween <br>
+            geen woord dat je zegt klinkt nog gemeend <br>
+            Voor als je het even niet meer weet 
+            <p>
+              voor als de gedichten henzelf niet meer schrijven <br>
+              je gedachten je treiteren <br>
+              en je jezelf daarboven het liefst zou verdrijven <br>
+              voor als de reigers oneindig ver weg lijken
+            </p>
+            <p>
+              Als je het even niet meer weet <br>
+              zorg dan dat je het einde niet vergeet
+            </p>
+            </em>
+             <div class="flexFoto">
+               <img src="images/Afb0458.jpg" height="50%" width="50%" alt="" />
+            </div>
+            <hr />
+            geschreven in de trein onderweg naar mijn geweldige stage op een zonnige dag waar ik ondanks alles toch kon balen. Memento mori ofzo maar dan niet dat je moet leven om te sterven maar omdat je moet leven voor je sterft. Dat liet me wel een stuk beter voelen en het was fijn om dit gedicht van mijn hoofd op papier te zetten. Het is druk en deze tijd zit ik niet zo helemaal lekker in mijn eigen hoofd als ik even alleen ben. toen herrinerde ik me dat alles echt alles tijdelijk is en kon ik wel weer de vogels zien en de bomen en dat was heel prettig. 
+            <p>Dit gedicht wilde ik origineel veel langer maken, maar dit einde schreef zichzelf en was eigenlijk perfect. Soms moet ik niet te veel lullen. Zoals nu. geniet van de dag. </p>
+          </div>
+        </div>
+      </div>
 
       <div class="flexPart">
          <div class="f_flexTekst">
@@ -119,7 +151,7 @@
               <p>
                 Ik neem graag de fiets, zodat ik af en toe kan worden overrompeld, <br>
                 en al door elkaar geslingerd wordt herrinnerd aan mijn zijn als nietig verschijnsel <br>
-                en zodat ik zeker niet verheven ben boven de bomen, <br>
+                en ook zodat ik zeker niet verheven ben boven de bomen, <br>
                 omdat ze me anders hun verhaal niet kunnen vertellen
               </p>
               <p>
@@ -247,16 +279,15 @@
               </p>
               <p>
                 Is er dan niemand zo eenzaam als ik? <br />
-                Is er dan niemand zo eenzaam als ik? <br />
-                Is er dan niemand zo alleen als ik?
+                Is er dan niemand zo eenzaam als ik? 
+              </p>
+              <p>
+                Als ik omringd ben door lege hoofden met betuttelende ogen <br />
+                Die allemaal niet de wolken zien veranderen
               </p>
               <p>
                 Als het voelt alsof ik een acteur ben <br />
                 En mijn ogen veranderen in camera's <br />
-              </p>
-              <p>
-                Omringd door lege hoofden met betuttelende ogen <br />
-                Die allemaal niet de wolken zien veranderen
               </p>
               <p>
                 Is er niemand die denkt aan een ander? <br />
@@ -317,7 +348,7 @@
         </div>
 
         <div class="f_flexTekst">
-          <div class="f_flexTitel">de boot 2</div>
+          <div class="f_flexTitel">de Boot 2</div>
           <div class="f_flexMain">
             <em>
               Vertel me eens, hoe ik kan dichten over vrede <br />
@@ -325,7 +356,7 @@
               Misschien wel elke dag opnieuw <br />
               Iemand is doodgeschoten tot een getal
               <p>
-                Hoe kan ik schrijven over vogers <br />
+                Hoe kan ik schrijven over vogels <br />
                 Als die ergens nergens te bekennen zijn <br />
                 Hun huis verwoest door bosbranden <br />
                 Of tegen hun wil werkende mensenhanden
@@ -344,16 +375,21 @@
               </p>
             </em>
           </div>
+          <hr>
           <div class="f_flexMain">
             Dit gedicht heb ik uiteraard direct na de vorige geschreven, want
             wat top voor mij dat ik een fijn moment heb hiero, hoewel die
             momenten juist heel belangrijk zijn om uit te kunnen rusten als
-            aactivist, blijft het belangrijk om bewust te blijven van je
-            priviliges en je geluk. Terwijl ik dit schreef verschenen er 3
+            activist, blijft het belangrijk om bewust te blijven van je
+            priviliges en je geluk.
+            <p>
+
+            Terwijl ik dit schreef verschenen er 3
             kakkerkindjes op kleine motorbootjes die het op mij gemunt leken te
             hebben,, ik sloeg een zijwatertje in en daar kwamen ze me gelukkig
             niet achterna, maar echt focussen kon ik me niet meer dus het
             gedicht is ook een beetje half af, toch wel leuk.
+            </p>
           </div>
         </div>
       </div>
@@ -440,8 +476,22 @@
           ></iframe>
         </div>
       </div>
-    </div>
 
+    <div class="player_main">
+      <div class="popup_header">Random voice memo!
+          <button id="player_close">&times;</button>
+        </div>
+
+        <div class="player_buttons">
+          <button id="play">&npar;</button>
+          <button id="player_pause">&yen;</button>
+          <button id="player_forward">&jmath;</button>
+        </div>
+        .player_closable
+    </div>
+    </div>.
+
+    </div>
     <script src="UTAfooterJs.js"></script>
   </body>
 </html>
