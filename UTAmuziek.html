@@ -478,20 +478,31 @@
       </div>
 
     <div class="player_main">
-      <div class="popup_header">Random voice memo!
+        <div class="player_background" id="player_cover" style="background-image: ;">
+      <div class="player_header">Random voice memo!
           <button id="player_close">&times;</button>
+        </div>
+        <hr>
+        <div class="player_middle">
+          <div class="player_titel" id="player_titel"></div>
+          <audio  controls src="" id="player_audio"> </audio>
         </div>
 
         <div class="player_buttons">
-          <button id="play">&npar;</button>
-          <button id="player_pause">&yen;</button>
-          <button id="player_forward">&jmath;</button>
+          <button id="player_next">&rarr;</button>
+          <a href="" id="player_downloadlink" download><button id="player_download">&darr;</button></a>
+
         </div>
-        .player_closable
+
+
+          <div class="player_tekst" id="player_tekst"><details><summary>Meer over het liedje</summary><div id="player_description"></div></details> 
+          <details><summary>Meer over deze webplayer</summary>Ik schrijf al jaren meerdere liedjes per week. Velen daarvan neem ik op in een spraakmemo terwijl ik ze aan het schrijven ben, zodat ik ze niet vergeet. Deze eerste opname is vaak de puurste en meest kostbare. En heel vaak blijft het bij deze opname en werk ik ze niet verder uit, en zien ze nooit het daglicht. Zonde. Via deze webplayer krijg je elke keer &eacute;&eacute;n van deze liedjes te horen, met soms een tekstje over het liedje. Je kan deze liedjes luisteren, downloaden of doorgaan naar de volgende. Maar teruggaan kan je niet. Misschien krijg je het dus maar &eacute;&eacute;n keer te horen. </details>
+        </div>
+
+        </div> 
     </div>
     </div>.
-
-    </div>
+    <script src="scripts/webplayer.js"></script>
     <script src="UTAfooterJs.js"></script>
   </body>
 </html>
