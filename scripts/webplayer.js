@@ -54,9 +54,9 @@ function loadTextFile(song) {
 fetch(`/Muziek/webplayer/tekst/${song}.txt`)
   .then(response => response.text())
   .then((data) => {
-    console.log(data)
+    console.log(data);
+    description.innerText = data;
   })
 
-  console.log(song)
 }
 
