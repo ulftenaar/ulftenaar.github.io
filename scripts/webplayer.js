@@ -1,5 +1,3 @@
-
-console.log("yeah");
 const title = document.querySelector('#player_titel');
 const audio = document.querySelector('#player_audio');
 const cover = document.querySelector('#player_cover');
@@ -7,16 +5,14 @@ const download = document.querySelector('#player_download');
 const downloadlink = document.querySelector('#player_downloadlink')
 const next = document.querySelector('#player_next');
 const description = document.querySelector('#player_description')
+const info_length = document.querySelector('#player_info_length')
+const info_index = document.querySelector('#player_info_index') 
 
+const songs = ["alles flitst voorbij", "melodica in de bergen", "waar zoekt een mens als een mens alles heeft gevonden", "wat zie je als je in de spiegel kijkt","het dorp", "paganini" ];
 
-const songs = ["alles flitst voorbij", "melodica in de bergen", "waar zoekt een mens als een mens alles heeft gevonden", "wat zie je als je in de spiegel kijkt"];
+newSong()
 
-const songIndex = 0;
-
-loadSong(songs[songIndex]);
-console.log("hoi");
-
-function loadSong(song) {
+function loadSong(song, index) {
   title.innerText = song;
 console.log(song)
   // CORRECT logging
@@ -33,6 +29,10 @@ console.log(song)
   //     console.log(data)
   //   })
 downloadlink.href = `Muziek/webplayer/muziek/${song}.wav`;
+info_length.innerText = songs.length;
+info_index.innerText = (index+1);
+  console.log(index);
+
 loadTextFile(song);
 }
 
@@ -47,7 +47,7 @@ function newSong() {
   // loadsonguitvoeren met songtitel
 
 const i = Math.floor(Math.random() * songs.length);
-loadSong(songs[i]);
+loadSong(songs[i], i);
 }
 
 function loadTextFile(song) {

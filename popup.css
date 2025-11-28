@@ -26,28 +26,57 @@
     position: fixed;
     bottom: 10%;  
     right: 10%;
-    width: 300px;
+    width: 400px;
     max-width: 50%;
     transform: translate(-50% -50%);
     border: solid darkgrey 5px;
 
     & audio {
         background: transparent;
+        width: 100%;
     }
 
     /* color: red; */
+    & summary:hover{
+        color: #39b270;
+        cursor: pointer;
+    }
 }
 
 .player_background {
- background: no-repeat  url("Images/BlogFoto/Afb1261.jpg") darkblue;
+ /* background: no-repeat  url("Images/BlogFoto/Afb1261.jpg") darkblue; */
+    background-color: hsl(56.3deg 36.6% 43.9% / 33%);
+
+    /* background-blend-mode: difference; */
+    padding: 1em;
 }
 
 .player_header {
-    mix-blend-mode: difference;
     font-size: 1.5rem;
     display: flex;
     padding: 0.2rem 0.3rem;
+    color: #39b270;
     justify-content: space-between; 
+    mix-blend-mode: color-burn;
+    font-family: mijnFont;
+    text-transform: uppercase;
+    letter-spacing: +1px;
+}
+
+.player_middle {
+    display: flex;
+flex-flow: row wrap;
+color: darkred;
+    mix-blend-mode: color-burn;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.player_info {
+    display: flex;
+    flex-flow: row nowrap;
+    right:0 ;
+    gap: 1rem;
 }
 
 .player_buttons {
@@ -62,5 +91,6 @@
 }
 
 .player_tekst {
-    mix-blend-mode: difference;
+    color: darkred;
+    mix-blend-mode: color-burn;
 }
