@@ -22,7 +22,6 @@
 }
 
 .player_main {
- background: no-repeat  url("Images/BlogFoto/Afb1261.jpg") darkblue;
     background-size:300%  ;
     position: fixed;
     bottom: 10%;  
@@ -32,14 +31,36 @@
     transform: translate(-50% -50%);
     border: solid darkgrey 5px;
 
+    & audio {
+        background: transparent;
+    }
+
+    /* color: red; */
+}
+
+.player_background {
+ background: no-repeat  url("Images/BlogFoto/Afb1261.jpg") darkblue;
+}
+
+.player_header {
+    mix-blend-mode: difference;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 0.2rem 0.3rem;
+    justify-content: space-between; 
 }
 
 .player_buttons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    mix-blend-mode: multiply;
 }
 
 .player_main.active {
      display:none ;
+}
+
+.player_tekst {
+    mix-blend-mode: difference;
 }
