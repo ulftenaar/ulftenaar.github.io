@@ -51,7 +51,7 @@ loadSong(songs[i]);
 }
 
 function loadTextFile(song) {
-fetch(`https://localhost/Muziek/webplayer/tekst/${song}.txt`)
+fetch(`/Muziek/webplayer/tekst/${song}.txt`)
   .then(response => response.text())
   .then((data) => {
     console.log(data)
