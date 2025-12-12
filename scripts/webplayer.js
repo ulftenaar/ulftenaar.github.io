@@ -10,11 +10,10 @@ const info_index = document.querySelector('#player_info_index')
 
 const songs = ["alles flitst voorbij", "melodica in de bergen", "waar zoekt een mens als een mens alles heeft gevonden", "wat zie je als je in de spiegel kijkt","het dorp", "paganini", "voel het in je schoenen", "hoe kan het zijn", "wat hou je nog over dan", "ik staar je aan", "het is altijd hetzelfde lied", "wie kan ik bedanken", "stiekem verliefd", "vandaag is niet zo'n dag", "zijn de vogels er dan nog", "ik dans met de duivel", "terwijl er iemand geen huis heeft", "als ik ooit nog jou verliezen zou", "als je niet leeft voor vandaag", "wat is het leven mooi als je iemand mist","dit land staat scheef", "op mijn gezicht, de jouwe ook", "ik niet"];
 
-newSong()
+newSong();
 
 function loadSong(song, index) {
   title.innerText = song;
-console.log(song)
   // CORRECT logging
 
   // CORRECT audio source
