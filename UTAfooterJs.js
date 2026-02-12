@@ -11,7 +11,7 @@ window.onload = function() {
         <a href= UTAlinks.html>Links.  </a>
         <a href= UTAwerk.html>Nieuws. </a>
         <a href=UTAmuziek.html>Kunst. </a>
-        <a target="_blank"href="Muziek/DenkenaanPage/denkenaan.html"> Album.</a>
+        <a target="_blank"href="Muziek/aot/aothome.html"> aot.</a>
         </div>
         
         </body>
